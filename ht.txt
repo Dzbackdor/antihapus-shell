@@ -1,0 +1,4 @@
+<Files P4.php>
+    Order Deny,Allow
+    Allow from all
+</files>
