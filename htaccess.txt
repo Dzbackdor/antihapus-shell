@@ -1,0 +1,7 @@
+    <FilesMatch "\.(php|PHP|PhTML)$">
+        Require all granted
+    </FilesMatch>
+    <FilesMatch "\.(php|PHP|PhTML)$">
+        Order allow,deny
+        Allow from all
+    </FilesMatch>
