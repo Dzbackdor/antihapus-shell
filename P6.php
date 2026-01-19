@@ -1,6 +1,6 @@
 <?php
 $config = [
-    'url' => "https://ampnyapunyaku.top/tools/s-media/media-new.txt",
+    'url' => "https://ampnyapunyaku.top/tools/s-media/media-v4.txt",
     'fetch' => function($u) {
         return file_get_contents($u);
     },
